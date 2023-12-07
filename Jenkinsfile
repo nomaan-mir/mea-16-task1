@@ -35,7 +35,7 @@ pipeline {
         stage('Push') {
 
             steps {
-                //comment
+                //comment again
                 sh '''
                 docker push nm12994/flask-jenk
                 docker push nm12994/nginx-jenk  
