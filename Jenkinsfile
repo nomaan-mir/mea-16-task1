@@ -25,7 +25,7 @@ pipeline {
 
                 sh '''
                 docker build -t flask-jenk .
-                docker build -t nginx-jenk ./ningx
+                docker build -t nginx-jenk ./nginx
                 '''
 
             }
