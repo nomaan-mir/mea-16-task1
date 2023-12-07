@@ -4,11 +4,11 @@ FROM python:3.6
 WORKDIR /app
 COPY . .
 # Install pip dependencies from requirements
-RUN pip install -- upgrade pip 
-RUN pip install -r requirements.txt
+RUN pip3 install -- upgrade pip 
+RUN pip3 install -r requirements.txt
 # Set YOUR_NAME environment variable
 ENV YOUR_NAME = "NOMAAN"
 # Expose the correct port
 EXPOSE 5500
 # Create an entrypoint
-ENTRYPOINT ["python", "app.py"]
+ENTRYPOINT ["python3", "app.py"]
