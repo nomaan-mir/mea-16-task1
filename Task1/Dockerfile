@@ -11,4 +11,4 @@ ENV YOUR_NAME = "NOMAAN"
 # Expose the correct port
 EXPOSE 5500
 # Create an entrypoint
-ENTRYPOINT ["python3", "app.py"]
+ENTRYPOINT ["python", "app.py"]
