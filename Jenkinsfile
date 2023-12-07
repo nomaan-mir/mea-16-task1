@@ -11,7 +11,7 @@ pipeline {
                 docker network create jenk-network || echo "Network Already Exists"
                 docker stop flask-app || echo "flask-app Not Running"
                 docker stop nginx || echo "nginx Not Running"
-                docker rm flash-app || echo "flask-app Not Running"
+                docker rm flask-app || echo "flask-app Not Running"
                 docker rm nginx || echo "nginx Not Running"
                 '''
 
