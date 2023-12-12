@@ -7,7 +7,7 @@ metadata:
 spec:
   containers:
   - name: task1
-    image: nm12994/task1kube
+    image: stratcastor/task1kube
     ports: 
     - containerPort: 5500
 ---
