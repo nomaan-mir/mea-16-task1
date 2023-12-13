@@ -41,7 +41,7 @@ metadata:
 spec:
   type: LoadBalancer 
   selector:
-    app: nginx
+    app: flask-app
   ports:
   - protocol: TCP
     port: 80
