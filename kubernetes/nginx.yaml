@@ -22,7 +22,7 @@ metadata:
     app: nginx
 spec:
   volumes: 
-  - name: nginx
+  - name: nginx-volume
     configMap:
       name: nginx-config 
   containers:
